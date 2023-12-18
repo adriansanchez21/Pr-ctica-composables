@@ -23,3 +23,9 @@ export default function usePost() {
         llegirPost,
     }
 }
+
+  /* 
+  2) Per obtenir els posts de la json placeholder api ho podem fer amb el fetch.
+  3) Necessitem una variable de tipus reactiva per a guardar els posts ja que si canvia la url canviaran les dades dels posts.
+  5) Fa que la funció sigui síncrona. Accedeix a la api i espera a que aconsegueixi totes les dades i després executa la resta del codi.
+  */
